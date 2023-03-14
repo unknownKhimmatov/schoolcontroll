@@ -1,0 +1,273 @@
+.absalute {
+    width: 100%;
+    height: 105vh;
+    position: absolute;
+    top: 0;
+    overflow: scroll;
+    position: absolute;
+    background-color: #282A3A;
+    z-index: 999999999999999999999999;
+    display: flex;
+    justify-content: center;
+
+}
+
+.admin {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    position: absolute;
+    background-color: #282A3A;
+    z-index: 999999999999999999999999;
+    display: flex;
+    justify-content: center;
+}
+
+
+.admin-item {
+    width: 95%;
+    height: 100%;
+
+}
+
+.top {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.top b {
+    cursor: pointer;
+    color: #fff;
+}
+
+.main-information-in-admin {
+    width: 100%;
+    padding: 20px;
+    height: 93vh;
+    overflow: scroll;
+    border: 1px solid rgb(186, 0, 0);
+    gap: 0;
+}
+
+
+
+.main-information-admin {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.top-information-admin {
+    width: 100%;
+    height: 480px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+
+}
+
+.top-information-admin div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top-information-admin div h1 {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+.top-information-admin div p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #e8e7e7;
+    text-align: center;
+}
+
+.top-information-admin div span {
+    color: #e8e7e7;
+}
+
+.top-information-admin div:nth-child(1) {
+    background-color: #00000087;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.top-information-admin div:nth-child(2) {
+    background-color: #00000087;
+}
+
+.top-information-admin div:nth-child(3) {
+    background-color: #00000087;
+}
+
+
+.main-add-inputs {
+    width: 100%;
+    display: grid;
+    overflow: scroll;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.main-add-inputs section {
+    background-color: #00000087;
+    height: 480px;
+    padding: 20px;
+}
+
+.puplis-add .title {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.puplis-add .title span {
+    color: #fff;
+}
+
+.inputs-box {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs-box div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs-box div label {
+    color: #a1a0a0;
+}
+
+.inputs-box div input {
+    width: 100%;
+    height: 55px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color: #424242;
+}
+
+.inputs-box span {
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.inputs-box span button {
+    width: 49%;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.inputs-box span button:nth-child(1) {
+    background-color: #5fc06f;
+    color: #fff;
+    font-weight: 600;
+}
+
+.inputs-box span button:nth-child(2) {
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+}
+
+.item-puplis {
+    width: 95%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+.top-puplis {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.top-puplis span {
+    color: #fff;
+    cursor: pointer;
+}
+
+.top-puplis input {
+    width: 50%;
+    height: 60px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+table {
+    width: 100%;
+    /* border: 1px solid white; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+}
+
+table div {
+    /* border: 1px solid white; */
+    height: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.566);
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+table div:hover {
+    opacity: .5;
+}
+
+table div tr {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+table div tr td {
+    color: #afafaf;
+}
+
+td button {
+    width: 60px;
+    margin-left: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+td button:nth-child(1) {
+    color: white;
+    background-color: red;
+}
+
+td button:nth-child(2) {
+    background-color: green;
+    color: #fff;
+}
