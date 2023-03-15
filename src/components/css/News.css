@@ -1,0 +1,79 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.item-contact {
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+.title-contact h3 {
+    width: 95%;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.main-contact-information {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.main-contact-information div {
+    /* border: 1px solid white; */
+}
+
+.inputs-contact {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs-contact section {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-contact span button {
+    width: 30%;
+    height: 45px;
+    background-color: green;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.inputs-contact section input {
+    width: 100%;
+    height: 60px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.inputs-contact section textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
