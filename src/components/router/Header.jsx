@@ -63,24 +63,14 @@ export default function Header() {
         >
           <ul>
             <h3 id='logo'>
-              SchoolControl
+              Up English <sup>with AI</sup>
             </h3>
             <Link to='/*'>
               <li>Asosiy</li>
             </Link>
-            <Link to='/Events'>
-              <li> Tadbirlar</li>
-            </Link>
-            <Link to='/News'>
-              <li>Yangiliklar</li>
-            </Link>
-            <Link to='/Contact'>
-              <li>Bog'lanish</li>
-            </Link>
           </ul>
           <ul>
-            <button onClick={HandlerDavomat} className='small-button'>Davomat </button>
-            <button onClick={HandlerAdmin} className='small-button' >Admin</button>
+            <button onClick={HandlerAdmin} className='small-button' >Kirish</button>
           </ul>
         </nav>
       </header>
